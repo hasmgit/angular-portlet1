@@ -1,0 +1,16 @@
+{
+	"liferayDir": "C:\\HASM\\LiferayDxp\\liferay-dxp-7.1.10-ga1",
+	"webpack": {
+		"rules": [
+			{
+				"test": "src\\\\.*\\.ts$",
+				"use": "ts-loader"
+			}
+		],
+		"extensions": [
+			".ts",
+			".js"
+		],
+		"mainModule": "index.ts"
+	}
+}
